@@ -1,0 +1,25 @@
+.wrapper {
+    margin-bottom: 12px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    background-color: #06f712;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 14px;
+    border: transparent;
+    border: 3px solid #22dd4b;
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+    background-color: #18df4a;
+    border: 3px solid #1fc042;
+}
+
+.button:focus {
+    outline: none;
+}
