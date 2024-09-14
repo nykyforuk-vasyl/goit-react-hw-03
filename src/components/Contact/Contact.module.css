@@ -1,0 +1,57 @@
+.listItem {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.iconUser {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+
+
+.deleteButton {
+    background-color: #13b4f3;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 10px;
+    border: transparent;
+    border: 3px solid #2292dd;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: black;
+}
+
+.deleteButton:hover {
+    background-color: #14a8e2;
+    border: 3px solid #2292dd;
+}
+
+.deleteButton:focus {
+    outline: none;
+}
